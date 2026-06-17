@@ -1,5 +1,6 @@
 from sklearn.preprocessing import OrdinalEncoder
 
+# create a function for performing encoding for categorical variables
 def encode_categories (df,variables):
     
     ord_enc=OrdinalEncoder()
@@ -8,3 +9,4 @@ def encode_categories (df,variables):
         df[name]=ord_enc.fit_transform(df[[v]])
         #print('The encoded values for '+ v + ' are:')
         #print(df[name].unique())
+    
