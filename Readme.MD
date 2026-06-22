@@ -44,7 +44,7 @@ uv pip install -r requirements.txt
 
 ## **Execution Instructions**
 
-To execute the entire machine learning pipeline—including data preprocessing, categorical encoding, handling data imbalance, feature selection, and model training—simply run the main modular engine script:
+To execute the entire machine learning pipeline including data preprocessing, categorical encoding, handling data imbalance, feature selection, and model training simply run the main modular engine script:
 
 
 
